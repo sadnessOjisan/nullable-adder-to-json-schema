@@ -1,0 +1,23 @@
+{
+  "name": "nullable-adder-to-json-schema",
+  "version": "0.0.1",
+  "description": "Be friend with Ajv.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadnessOjisan/nullable-adder-to-json-schema.git"
+  },
+  "author": "sadnessOjisan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sadnessOjisan/nullable-adder-to-json-schema/issues"
+  },
+  "homepage": "https://github.com/sadnessOjisan/nullable-adder-to-json-schema#readme",
+  "devDependencies": {},
+  "bin": {
+    "nullable-adder-to-json-schema": "./bin/add-nullable.js"
+  }
+}
