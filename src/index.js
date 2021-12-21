@@ -1,6 +1,5 @@
 const addNullable = (input) => {
   const copy = { ...input };
-
   if (copy.type !== "object") return;
 
   const reqKeys = copy.required;
