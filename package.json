@@ -18,5 +18,9 @@
   "homepage": "https://github.com/sadnessOjisan/nullable-adder-to-json-schema#readme",
   "bin": {
     "nullable-adder-to-json-schema": "./bin/add-nullable"
-  }
+  },
+  "files": [
+    "bin",
+    "src"
+  ]
 }
