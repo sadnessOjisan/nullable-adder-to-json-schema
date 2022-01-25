@@ -1,6 +1,6 @@
 {
   "name": "nullable-adder-to-json-schema",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Be friend with Ajv.",
   "main": "src/index.js",
   "scripts": {

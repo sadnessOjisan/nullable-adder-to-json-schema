@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const fs = require("fs");
-const addNullable = require("../src/index");
+const addNullable = require("../src/index").addNullable;
 
 const path = process.argv[2];
 
