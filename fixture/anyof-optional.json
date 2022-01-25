@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "foo": { "type": "integer" },
+    "bar": {
+      "type": "object",
+      "anyOf": [
+        {
+          "properties": {
+            "piyo": { "type": "string" }
+          }
+        },
+        {
+          "properties": {
+            "fuga": { "type": "string" }
+          }
+        }
+      ]
+    }
+  },
+  "required": ["foo"]
+}

@@ -4,6 +4,5 @@
     "foo": { "type": "integer" },
     "bar": { "type": "string" }
   },
-  "required": ["foo"],
-  "additionalProperties": false
+  "required": ["foo"]
 }
